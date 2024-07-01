@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HexaBot Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0; /* Added padding for better spacing */
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2, p {
+            margin-bottom: 10px;
+        }
+        .home-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .home-button:hover {
+            background-color: #0056b3;
+        }
+        .latest-blogs {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .blog-link {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .blog-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HexaBot Blog</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> <!-- Added Home link -->
+    </nav>
+    <div class="container">
+        <h2>Welcome to the HexaBot Blog</h2>
+        <p>Stay updated with the latest news, updates, and tutorials from HexaBot.</p>
+        
+        <div class="latest-blogs">
+            <h2>Latest Blog Posts</h2>
+            <ul id="blog-list">
+                <li><a href="blogposttemplate.html" class="blog-link">1st July 2024</a> - <small>Posted on 2024-07-01</small></li>
+                <!-- Add more blog links here -->
+            </ul>
+        </div>
+
+        <button class="home-button" onclick="window.location.href='index.html'">Go to Home Page</button>
+    </div>
+</body>
+</html>
